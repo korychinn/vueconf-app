@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-  baseURL: 'https://my-json-server.typicode.com/korychinn/test-json', 
+  baseURL: 'https://my-json-server.typicode.com/korychinn/vueconf-app', 
   withCredentials: false,
   headers: {
     Accept: 'application/json',
